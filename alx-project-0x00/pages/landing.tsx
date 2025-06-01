@@ -8,10 +8,23 @@ export default function Landing() {
       <h1 className="text-3xl font-bold mb-4">Landing Page</h1>
       <Card />
 
-      {/* Cards (previous task) */}
-      <Card title="Frontend Stack" />
-      <Card title="Backend Stack" />
-      <Card title="DevOps Stack" />
+      <Button
+        title="Continue"
+        styles="text-sm rounded-sm bg-green-400 hover:bg-green-400/50 "
+      />
+      <Button
+        title="Accept"
+        styles="text-sm rounded-md bg-yellow-500 hover:bg-yellow-500/50"
+      />
+      <Button
+        title="Buy"
+        styles="text-sm rounded-full bg-green-500 hover:bg-green-500/50"
+      />
+      <Button
+        title="Buy"
+        styles="text-sm rounded-lg bg-green-500 hover:bg-green-500/50"
+      />
+    
 
       <h2 className="text-2xl font-semibold mt-8">Buttons</h2>
 
