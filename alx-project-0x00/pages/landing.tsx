@@ -6,6 +6,7 @@ export default function Landing() {
   return (
     <div className="p-6 space-y-4">
       <h1 className="text-3xl font-bold mb-4">Landing Page</h1>
+      <Card />
 
       {/* Cards (previous task) */}
       <Card title="Frontend Stack" />
